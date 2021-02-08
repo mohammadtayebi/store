@@ -1,0 +1,49 @@
+.sort {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    -moz-box-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    column-gap: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.5rem;
+}
+
+.pic {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.active {
+    color: gray;
+    cursor: not-allowed;
+}
+
+.hr {
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+#sort {
+    border-color: transparent;
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding: 0.25rem 0.5rem;
+}
+
+@media (max-width: 750px) {
+    .sort {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 0.75rem;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 10px 15px;
+        column-gap: 25px;
+    }
+}

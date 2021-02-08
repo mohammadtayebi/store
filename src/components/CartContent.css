@@ -1,0 +1,23 @@
+.shopping {
+    border-color: transparent;
+    text-transform: capitalize;
+    padding: 0.25rem 0.5rem;
+    background: #ab7a5f;
+    color: white;
+    border-radius: 0.25rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.clear {
+    border-color: transparent;
+    text-transform: capitalize;
+    padding: 0.25rem 0.5rem;
+    background: black;
+    color: white;
+    border-radius: 0.25rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}

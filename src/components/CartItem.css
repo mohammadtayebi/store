@@ -1,0 +1,48 @@
+.cart-item {
+    display: grid;
+    -moz-box-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr auto;
+    align-items: center;
+    grid-template-rows: 75px;
+    gap: 3rem 1rem;
+    place-items: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.item-cart {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-cart img {
+    width: 100px;
+    height: 75px;
+    border-radius: 0.25rem;
+}
+
+.item-color {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 0.25rem;
+}
+
+.item-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.remove-button {
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 11px;
+}

@@ -1,0 +1,22 @@
+.hero-btn {
+    border: 0;
+    background-color: #ab7a5f;
+    color: white;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.75rem 1.5rem;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    color: #453227;
+    background-color: #c5a491;
+}
+
+.all {
+    height: 73vh;
+}

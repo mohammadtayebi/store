@@ -1,0 +1,36 @@
+.color-btn {
+    background-color: black;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    border: 0;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+.active {
+    opacity: 1;
+}
+
+.color-container {
+    display: grid;
+    grid-template-columns: 65px 1fr;
+}
+
+.hero-btn {
+    border: 0;
+    background-color: #ab7a5f;
+    color: white;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}

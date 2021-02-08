@@ -1,0 +1,62 @@
+ <div className="list-view">
+          <img
+            src="https://dl.airtable.com/.attachmentThumbnails/89ba7458c24252be77f5a835dd398880/c13ef359"
+            alt=""
+            className="left"
+          />
+
+          <div className="right">
+            <h2>Modern Poster</h2>
+            <span className="text-warning">30.99$</span>
+            <p>
+              Cloud bread VHS hell of banjo bicycle rights jianbing umami
+              mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr
+              dreamcatcher waistcoat, authentic ...
+            </p>
+            <button className="btn btn-success">details</button>
+          </div>
+        </div>
+        
+        {/* END OF LIST VIEW */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="list my-4">
+        {/* GRID VIEW  */}
+        {filter.map((item) => {
+          const { id, name, price, image, description } = item;
+          return (
+            <div className="product" key={id}>
+              <img src={image} alt={name} />
+              <div className="product-info">
+                <p className="title">{name}</p>
+                <span className="price">{formatPrice(price)}</span>
+              </div>
+            </div>
+          );
+        })}
+        {/* end of GRID  */}
+          {/* LIST VIEW */}
+       
+      </div>
